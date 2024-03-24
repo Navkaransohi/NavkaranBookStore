@@ -1,8 +1,10 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using NavkaranBooks.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
+
 
 namespace NavkaranBookStore.DataAccess.Data
 {
@@ -12,5 +14,7 @@ namespace NavkaranBookStore.DataAccess.Data
             : base(options)
         {
         }
+       
+        public DbSet<Category> Categories { get; set; }
     }
 }
