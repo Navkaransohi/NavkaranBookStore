@@ -1,5 +1,6 @@
 ﻿using NavkaranBooks.DataAccess.Repository.IRepository;
 using NavkaranBookStore.DataAccess.Data;
+using NavkaranBooks.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
